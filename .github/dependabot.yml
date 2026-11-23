@@ -6,6 +6,11 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 5
     ignore:
+      # Vitest and its coverage provider must support the Node 20 test job.
+      - dependency-name: "vitest"
+        versions: ["5.x"]
+      - dependency-name: "@vitest/coverage-v8"
+        versions: ["5.x"]
       - dependency-name: "typescript"
         versions: [">=6"]
     groups:

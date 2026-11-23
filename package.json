@@ -186,7 +186,7 @@
     "@types/npm-package-arg": "6.1.4",
     "@typescript-eslint/eslint-plugin": "^8.65.0",
     "@typescript-eslint/parser": "^8.65.0",
-    "@vitest/coverage-v8": "5.1.0",
+    "@vitest/coverage-v8": "4.1.11",
     "ajv": "8.20.0",
     "eslint": "^10.8.0",
     "globals": "^17.8.0",
@@ -194,7 +194,7 @@
     "tsx": "4.23.15",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.65.0",
-    "vitest": "5.1.0"
+    "vitest": "4.1.11"
   },
   "overrides": {
     "undici": ">=7.29.0",

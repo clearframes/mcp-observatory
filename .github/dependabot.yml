@@ -13,6 +13,11 @@ updates:
         versions: ["5.x"]
       - dependency-name: "typescript"
         versions: [">=6"]
+      # These release lines require Node 22 or newer.
+      - dependency-name: "commander"
+        versions: ["15.x"]
+      - dependency-name: "npm-package-arg"
+        versions: ["14.x"]
     groups:
       dev-tooling:
         dependency-type: "development"
@@ -22,3 +27,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      codeql-actions:
+        patterns:
+          - "github/codeql-action/*"
